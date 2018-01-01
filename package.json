@@ -1,6 +1,17 @@
 {
   "name": "microbe-registry",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "description": "Microbe Registry",
+  "repository": "cbdowell/microbe-registry",
+  "bugs": "https://github.com/cbdowell/microbe-registry/issues",
+  "homepage": "https://github.com/cbdowell/microbe-registry",
+  "license": "MIT",
+  "scripts": {
+    "push-changes": "node ./scripts/push-changes.js"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "shelljs": "^0.7.8",
+    "husky": "^0.14.3"
+  }
 }
